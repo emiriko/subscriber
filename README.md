@@ -8,3 +8,12 @@
 2. What it means? `guest:guest@localhost:5672`, what is the first `guest`, and what is the second `guest`, and what is `localhost:5672` is for?
     - The first `guest` is _username_ while the second `guest` is _password_. In this case, `guest:guest` means the _username_ and _password_ are guest.
     - `localhost:5672` means the server is running on the client machine with port 5672 which is the default port for AMQP.
+
+## Simulation slow subscriber
+
+![alt text](slow_request.png)
+
+## With 2 consoles 
+
+![alt text](two_consoles.png)
+![alt text](rmq-slow_request.png)
